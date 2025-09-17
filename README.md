@@ -1,5 +1,5 @@
 Overview
-InSARPlus is a free and open-source software designed for InSAR (Interferometric Synthetic Aperture Radar) processing, tailored for students and researchers in Earth sciences and remote sensing. It provides tools for searching, downloading, and processing Sentinel-1 SLC images. Released under the MIT License, users can freely use, modify, and extend the software while preserving the original ownership of Siavash Shami. The project is actively being updated with new features and phases.
+- InSARPlus is a free and open-source software designed for InSAR (Interferometric Synthetic Aperture Radar) processing, tailored for students and researchers in Earth sciences and remote sensing. It provides tools for searching, downloading, and processing Sentinel-1 SLC images. Released under the MIT License, users can freely use, modify, and extend the software while preserving the original ownership of Siavash Shami. The project is actively being updated with new features and phases.
 
 Project Status
 - The project is under active development with the following phases:
