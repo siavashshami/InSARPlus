@@ -1,0 +1,40 @@
+# Configuration file for searching Sentinel-1 SLC images 
+# Lines starting with # are comments and ignored by the script
+# Settings are in [section] key=value format for clarity
+
+[Credentials]
+# username: Your username for accessing the Alaska Satellite Facility
+# Register at https://urs.earthdata.nasa.gov
+username: test
+password: test
+
+[General]
+# data_source: Must be set to asf for Alaska Satellite Facility
+data_source: asf
+# start_date: Start date in YYYY-MM-DD format, e.g., 2016-01-01
+start_date: 2019-01-01
+# end_date: End date in YYYY-MM-DD format, e.g., 2024-12-31
+end_date: 2019-12-31
+# min_images: Minimum number of images required per group (polarization, orbit, platform, path, frame) to process and download orbit files (positive integer, default: 10)
+min_images: 10
+# coverage_percent: Minimum coverage percentage of the region by the image (0-100, default: 100)
+coverage_percent: 100
+
+[Region]
+# region_type: Choose how to define the region: bounding_box, point_buffer, shapefile, geojson, kml, or kmz
+# Only fill the corresponding region definition below; others are ignored to avoid confusion
+region_type: bounding_box
+# region_folder: Folder where region files (study_area.shp, study_area.geojson, etc.) are stored for shapefile, geojson, kml, or kmz
+region_folder: study_area
+# bounding_box: For bounding_box; enter lon_min, lat_min, lon_max, lat_max, e.g., 51.0438, 35.5146, 51.6138, 35.8958
+bounding_box: 51.0438, 35.5146, 51.6138, 35.8958
+# point_buffer: For point_buffer; enter center_lon, center_lat, radius_km, e.g., 51.3515, 35.7053, 15
+point_buffer: 
+# shapefile: For shapefile; place study_area.shp (with .shx, .dbf) in region_folder, e.g., study_area.shp
+shapefile: 
+# geojson: For geojson; place study_area.geojson in region_folder, e.g., study_area.geojson
+geojson: 
+# kml: For kml; place study_area.kml in region_folder, e.g., study_area.kml
+kml: 
+# kmz: For kmz; place study_area.kmz in region_folder, e.g., study_area.kmz
+kmz: 
