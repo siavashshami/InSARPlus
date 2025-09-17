@@ -1,0 +1,10 @@
+# Logs
+sentinel/search.log
+sentinel/raw_api_responses_asf.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Config with sensitive data
+step_1/sentinel_search_asf/config_sentinel_search_asf.txt
