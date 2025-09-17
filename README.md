@@ -9,6 +9,7 @@ Phase 3: Processing (Planned): InSAR processing for geophysical analysis.
 Additional phases to be added.
 
 Structure
+
 step_1/: sentinel_search_asf README.
 docs/: Future documentation.
 .gitignore: Excludes logs and sensitive configs.
