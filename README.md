@@ -3,7 +3,7 @@ Overview
 
 Project Status
 - The project is under active development with the following phases:
-- Phase 1: Search (Complete): Search for Sentinel-1 SLC images using the ASF API. See phase1-search/ for details.
+- Phase 1: Search (Complete): Search for Sentinel-1 SLC images using the ASF API. See step_1/sentinel_search_asf for details.
 - Phase 2: Download (In Progress): Download selected images.
 - Phase 3: Processing (Planned): InSAR processing for geophysical analysis.
 - Additional phases to be added.
