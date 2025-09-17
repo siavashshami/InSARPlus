@@ -8,12 +8,6 @@ Phase 2: Download (In Progress): Download selected images.
 Phase 3: Processing (Planned): InSAR processing for geophysical analysis.
 Additional phases to be added.
 
-Structure
-- step_1/: sentinel_search_asf README.
-- docs/: Future documentation.
-- .gitignore: Excludes logs and sensitive configs.
-- LICENSE: MIT License for open-source use.
-
 Getting Started
 1. Clone the repository: git clone https://github.com/siavashshami/InSARPlus.git
 2. Navigate to step_1/sentinel_search_asf/ and follow its README.md for setup instructions.
